@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{5576c829-728c-4760-8788-1b60ea54f551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{d1a730ee-62ca-4106-9712-ec84e7265f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Visuals">
+      <UniqueIdentifier>{2ccbeedb-eb54-4476-a2a0-969e9e3e763c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drawing">
+      <UniqueIdentifier>{1534b079-1e4c-484e-b5a8-bad283459a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO_SDK">
+      <UniqueIdentifier>{74d85558-83de-45cc-8d4b-256eba6896eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Misc">
+      <UniqueIdentifier>{1f73b5d2-5ff2-4f54-914a-25ed63e15c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Aimbot">
+      <UniqueIdentifier>{f7a7d13a-bd77-4616-9efd-1d46e9419d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Triggerbot">
+      <UniqueIdentifier>{ff157fb6-180b-4ad3-b6ab-27d6d716e02b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Profiles">
+      <UniqueIdentifier>{7bea46b2-1821-40c5-b703-94bfb4e98ff4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="Pubindebiyabindi.cpp" />
+    <ClCompile Include="Features\Visuals\ESP.cpp">
+      <Filter>Features\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing\D3DFont.cpp">
+      <Filter>Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing\DrawManager.cpp">
+      <Filter>Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattern.cpp" />
+    <ClCompile Include="CSGO_SDK\checksum_crc.cpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CSGO_SDK\Color.cpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CSGO_SDK\GameTrace.cpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CSGO_SDK\GlowManager.cpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CSGO_SDK\IClientEntity.cpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CSGO_SDK\interface.cpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CSGO_SDK\IVEngineClient.cpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CSGO_SDK\math.cpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CSGO_SDK\Vector.cpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Misc\Bunnyhop.cpp">
+      <Filter>Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Aimbot\Aimbot.cpp">
+      <Filter>Features\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Triggerbot\Triggerbot.cpp">
+      <Filter>Features\Triggerbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Visuals\Glow.cpp">
+      <Filter>Features\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Profiles\Profiles.cpp">
+      <Filter>Features\Profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Misc\RecoilControl.cpp">
+      <Filter>Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="CSGO_SDK\CRender.cpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Visuals\Chams.cpp">
+      <Filter>Features\Visuals</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visuals\ESP.hpp">
+      <Filter>Features\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.hpp" />
+    <ClInclude Include="VirtualFunction.hpp" />
+    <ClInclude Include="Pattern.hpp" />
+    <ClInclude Include="json.hpp" />
+    <ClInclude Include="Drawing\D3DFont.h">
+      <Filter>Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing\DrawManager.hpp">
+      <Filter>Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imguitablabel.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\C_BaseCombatWeapon.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\CClientClass.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\checksum_crc.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\Color.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\CUserCmd.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\GameTrace.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\GlobalVarsBase.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\GlowManager.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\IClientEntity.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\IClientEntityList.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\interface.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\IPanel.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\ISurface.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\IVEngineClient.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\math.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\TraceEngine.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\Vector.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\IVModelInfo.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Misc\Bunnyhop.hpp">
+      <Filter>Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Aimbot\Aimbot.hpp">
+      <Filter>Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Triggerbot\Triggerbot.hpp">
+      <Filter>Features\Triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visuals\Glow.hpp">
+      <Filter>Features\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Profiles\Profiles.hpp">
+      <Filter>Features\Profiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Misc\RecoilControl.hpp">
+      <Filter>Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\bspflags.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\CRender.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visuals\Chams.hpp">
+      <Filter>Features\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO_SDK\IMaterialSystem.hpp">
+      <Filter>CSGO_SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui\.travis.yml">
+      <Filter>imgui</Filter>
+    </None>
+  </ItemGroup>
+</Project>
